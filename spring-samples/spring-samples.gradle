@@ -4,6 +4,7 @@ dependencies {
 	implementation project(":spring-context")
 	implementation project(":spring-beans")
 	implementation project(":spring-core")
+	implementation project(":spring-tx")
 }
 
 application {

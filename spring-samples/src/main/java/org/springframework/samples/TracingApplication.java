@@ -24,6 +24,9 @@ public class TracingApplication {
 				System.out.println(propertySource);
 				System.out.println("----");				
 			});
+			System.out.println(context.getEnvironment().getClass().getName());
+			System.out.println("greeting: " + context.getEnvironment().getProperty("greeting"));
+			System.out.println("hello: " + context.getEnvironment().getProperty("hello"));
 		}
 	}
 }
